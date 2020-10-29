@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT father (san1, san2)*>
+<!ELEMENT san1 EMPTY >
+<!ELEMENT san2 EMPTY >
+
+<!-- 
+<!ELEMENT client (commande)*>
+<!ATTLIST client date CDATA #REQUIRED>
+
+<!ELEMENT commande EMPTY>
+<!ATTLIST commande produit CDATA #REQUIRED 
+                quantite CDATA #REQUIRED>
+-->
