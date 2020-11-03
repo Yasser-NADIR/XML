@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblio SYSTEM "Biblio.dtd">
+<biblio>
+    <livre categorie="action" ISBN="A1" titre="à la recherche de trésor" datePub="20/02/2020">
+        <auteur nom="dada" id="A2" idPub="A2"></auteur>
+        <longue id="E3"/>
+        <resume>loreom bla bla *10</resume>
+    </livre>
+</biblio>

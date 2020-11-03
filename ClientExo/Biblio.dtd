@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT biblio (livre)*>
+<!ELEMENT livre (auteur*, longue, resume*)>
+<!ATTLIST livre categorie CDATA #REQUIRED
+                ISBN ID #REQUIRED
+                titre CDATA #REQUIRED
+                datePub CDATA #REQUIRED
+                >
+<!ELEMENT auteur EMPTY>
+<!ATTLIST auteur nom CDATA #REQUIRED
+                 id ID #REQUIRED
+                 idPub IDREFS #REQUIRED>
+
+<!ELEMENT longue EMPTY>
+<!ATTLIST longue long (fr|en|ar|ou|es) "fr"
+                    id ID #REQUIRED>
+
+<!ELEMENT resume (#PCDATA)>
